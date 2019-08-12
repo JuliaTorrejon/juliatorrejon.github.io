@@ -20,13 +20,14 @@ The project has detailed documentation on how install, register and how to initi
 
 GitLab Runner Installation
 Download the binary for you system:
-sudo curl --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-darwin-amd64
+{% highlight bash %}sudo curl --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-darwin-amd64{% endhighlight %}
+
 Give it permissions to execute:
-sudo chmod +x /usr/local/bin/gitlab-runner
+{% highlight bash %}sudo chmod +x /usr/local/bin/gitlab-runner{%endhighlight%}
 
 GitLab Runner Registration
 Run the following command:
-gitlab-runner register
+{% highlight bash %}gitlab-runner register{%endhighlight%}
 Enter your GitLab instance URL:
 Please enter the gitlab-ci coordinator URL (e.g. https://gitlab.com )
 https://gitlab.com
@@ -36,7 +37,7 @@ xxx
 
 GitLab Runner Start
 This command starts the GitLab Runner service.
-gitlab-runner start
+{%dhighlight bash%}gitlab-runner start{%endhighlight%}
 
 Test
 Navigate to CI/CD > Pipelines and click on "Run Pipeline" to trigger the pipeline in case it has not run automatically.
