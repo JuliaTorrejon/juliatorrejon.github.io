@@ -12,31 +12,31 @@ categories:
 - Automated Testing
 twitter_text: 'Automated testing using Selenium and BrowserStack'
 ---
-
+Automated Selenium Testing - BrowserStack
 This repository contains information about how to do automated testing using Selenium in order to test different desktop browsers with BrowserStack.
 
-## Documentation 
+Documentation
+The project has detailed documentation on how install, register and how to initiate a GitLab Runner in order to run the script for desktop browsers.
 
-The project has detailed documentation, including a "getting started" guide.
+GitLab Runner Installation
+Download the binary for you system:
+sudo curl --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-darwin-amd64
+Give it permissions to execute:
+sudo chmod +x /usr/local/bin/gitlab-runner
 
-## "Getting Started" Guide
+GitLab Runner Registration
+Run the following command:
+gitlab-runner register
+Enter your GitLab instance URL:
+Please enter the gitlab-ci coordinator URL (e.g. https://gitlab.com )
+https://gitlab.com
+Enter the token you obtained to register the Runner:
+Please enter the gitlab-ci token for this runner
+xxx
 
-1. #### Selenium with Python 
+GitLab Runner Start
+This command starts the GitLab Runner service.
+gitlab-runner start
 
-Before start running Selenium tests with Python, ensure the following library is installed:
-
-If pip is not installed, you can install it using: 
-
-{% highlight bash %}
-$ sudo pip install selenium
-{% endhighlight %}
-
-To get started, import modules from Selenium to get access to code from another module by importing the file/function:
-
-{% highlight python %}
-import os
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from selenium.webdriver.common.by import By
-{% endhighlight %} 
+Test
+Navigate to CI/CD > Pipelines and click on "Run Pipeline" to trigger the pipeline in case it has not run automatically.
