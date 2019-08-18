@@ -20,7 +20,7 @@ The project has detailed documentation on how install, register and how to initi
 
 GitLab Runner Installation
 Download the binary for you system:
-{%highlight bash%}sudo curl --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-darwin-amd64{% endhighlight %}
+<p>{%highlight bash%}sudo curl --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-darwin-amd64{% endhighlight %}</p>
 
 Give it permissions to execute:
 {%highlight bash%}sudo chmod +x /usr/local/bin/gitlab-runner{%endhighlight%}
