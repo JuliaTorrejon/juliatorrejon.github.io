@@ -12,7 +12,6 @@ categories:
 - Automated Testing
 twitter_text: 'Automated testing using Selenium and BrowserStack'
 ---
-Automated Selenium Testing - BrowserStack
 This repository contains information about how to do automated testing using Selenium in order to test different desktop browsers with BrowserStack.
 
 Documentation
