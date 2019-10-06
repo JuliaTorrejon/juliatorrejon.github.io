@@ -14,7 +14,7 @@ twitter_text: 'Automated testing using Selenium and BrowserStack'
 ---
 This repository contains information about how to do automated testing using Selenium in order to test different desktop browsers with BrowserStack.
 
-Documentation
+
 The project has detailed documentation on how install, register and how to initiate a GitLab Runner in order to run the script for desktop browsers.
 
 GitLab Runner Installation
