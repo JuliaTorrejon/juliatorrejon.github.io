@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Automated Testing using Selenium and BrowserStack"
+published: false
 date: 2019-07-28 21:25:00
 image: '/assets/img/'
 description: 'Getting started with automated testing'
