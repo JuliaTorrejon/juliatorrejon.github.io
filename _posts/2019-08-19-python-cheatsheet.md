@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Python Cheatsheet"
+published: false
 date: 2019-08-18 23:15:00
 image: '/assets/img/'
 description: ''
