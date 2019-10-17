@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Grace Hopper's Compilers"
+title: "Grace Hoppers Compilers"
 published: false
 date: 2019-10-17 19:00:00
 image: '/assets/img/'
-description: 'Grace Hopper's Compilers'
+description: 'Grace Hoppers Compilers'
 tags:  
 - Compilers
 - Grace Hooper
