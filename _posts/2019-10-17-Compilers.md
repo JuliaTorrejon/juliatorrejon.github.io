@@ -9,8 +9,8 @@ tags:
 - Compilers
 - Grace Hooper
 categories:
-- Glossary of Terms
-twitter_text: ''
+- Compilers
+twitter_text: 'Compilers by Grace Hopper'
 ---
 
 A compiler is a computer programme that translates computer code written in one programming language (the source language) into another language (the target language). 
