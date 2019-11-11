@@ -66,7 +66,7 @@ Here are some of the most common linked list questions:
 7. How do you find the third node from the end in a singly linked list? 
 8. How do you find the sum of two linked lists using Stack?
 
-### String Coding Questions
+### 3. String Coding Questions
 
 Along with array and linked list data structures, a string is another popular topic on programming.
 
@@ -89,7 +89,7 @@ Here is my list of frequently asked string coding questions:
 11. How do you check if two strings are a rotation of each other? 
 12. How do you check if a given string is a palindrome? 
 
-### Binary Tree Coding Questions
+### 4. Binary Tree Coding Questions
 
 So far, we have looked at only the linear data structure, but all information in the real world cannot be represented in linear fashion, and that's where tree data structure helps.
 
@@ -112,7 +112,7 @@ Here is a list of popular binary tree-based coding questions:
 9. How do you count a number of leaf nodes in a given binary tree?
 10. How do you perform a binary search in a given array?
 
-### Miscellaneous Coding Questions
+### 5.Miscellaneous Coding Questions
 
 Apart from data structure-based questions, most of the programming sessions ask about algorithm, design, bit manipulation, and general logic-based questions.
 
